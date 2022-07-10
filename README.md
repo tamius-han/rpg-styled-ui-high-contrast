@@ -1,48 +1,14 @@
-# RPG Styled UI
-Foundry VTT DnD5e RPG Styled UI
+# RPG Styled UI (High Contrast edition)
 
-A simple styling for FoundryVTT in black and red. Includes:
-- Chat layout.
-- Dialog Boxes Layout
-- Character Sheet
-- NPC Sheet
-- Integration with [Combat Carousel](https://github.com/death-save/combat-carousel-public)
+This is a fork of [Xbozon's RPG styled UI](https://github.com/Xbozon/rpg-styled-ui) theme. 
 
-Originally made it for a campaign I run for friends and thought to make it commercial later on, but...
-I'm so grateful to all the developers of free modules for Foundry, so I decided to release completely free. 
+Original theme looks nice, but it doesn't provide enough contrast for some of my very bright maps. My changes to the theme aim to increase the contrast and provide some additional legibility (according to my subjective standards), even if that comes at the expense of aesthetics.
 
+> Note: while the original theme has some support for pathfinder, I've only applied changes to the bits of the theme relevant to me.
 
 # How it looks
 
-![alt text](example.jpg "Title")
-Map by [Neutral Party](https://www.patreon.com/neutralparty)
-
-## Special thanks:
-
-- [Dice So Nice!](https://gitlab.com/riccisi/foundryvtt-dice-so-nice)
-- [Midi QOL](https://gitlab.com/tposney/midi-qol)
-- [Combat Carousel](https://github.com/death-save/combat-carousel-public)
-- [Combat utility belt](https://github.com/death-save/combat-utility-belt)
-- [Dynamic Effects](https://gitlab.com/tposney/dae)
-
-## Update policy
-I don't have a lot of free time, but I will try to maintain this module as much as possible.
-
-## Pathfinder 2 Support
-I provide initial support on this system, like correcting interface errors. 
-If you need fast updates, mod compatibility, please consider using the fork [pathfinder-ui](https://gitlab.com/sasmira/pathfinder-ui) by ([Sasmira](https://gitlab.com/sasmira))
-
-## Thanks for the translation
-
-- French ([Sasmira](https://gitlab.com/sasmira))
-- Spanish (Regik)
-
-## Planned
-
-- Replace the standard buttons on the tabs
-- Styling map notes. (Please email me if you can draw them in the style of the book)
-- Styling map pins
-- Converting png/jpg to webp
+TODO: provide example
 
 # How to install
 Copy link ```https://raw.githubusercontent.com/Xbozon/rpg-styled-ui/main/module.json``` to
