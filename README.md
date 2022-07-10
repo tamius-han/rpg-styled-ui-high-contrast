@@ -11,6 +11,6 @@ Original theme looks nice, but it doesn't provide enough contrast for some of my
 TODO: provide example
 
 # How to install
-Copy link ```https://raw.githubusercontent.com/Xbozon/rpg-styled-ui/main/module.json``` to
+Copy link ```https://raw.githubusercontent.com/tamius-han/rpg-styled-ui-high-contrast/main/module.json``` to
 
 ![alt text](install.jpg "Title")
