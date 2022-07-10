@@ -6,7 +6,7 @@
   "authors": ["Xbozon", "Tamius Han"],
   "url": "https://github.com/tamius-han/rpg-styled-ui-high-contrast",
   "flags": {},
-  "version": "v1.0.4",
+  "version": "v1.0.5",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "9",
   "scripts": [
@@ -38,7 +38,7 @@
   "dependencies": [],
   "socket": false,
   "manifest": "https://raw.githubusercontent.com/tamius-han/rpg-styled-ui-high-contrast/main/module.json",
-  "download": "https://github.com/tamius-han/rpg-styled-ui-high-contrast/archive/refs/tags/v1.0.4.zip",
+  "download": "https://github.com/tamius-han/rpg-styled-ui-high-contrast/archive/refs/tags/v1.0.5.zip",
   "protected": false,
   "coreTranslation": false,
   "library": false
