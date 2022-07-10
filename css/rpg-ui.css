@@ -213,9 +213,18 @@ body.compact-mode #logo {
     font-weight: 600;
 }
 
+.chat-message .message-header .message-sender {
+    color: #eba7ba;
+}
+.chat-message .message-header .message-metadata {
+    color:  #a36b73;
+    font-weight: 100;   
+}
+
 .chat-message .message-content {
     color: var(--main-text-light-color) !important; /*8e8073*/
 }
+
 
 .chat-message .table-draw .table-description {
     border-top: 1px solid var(--monks-border-color);
@@ -529,10 +538,10 @@ body.compact-mode #logo {
 
 .dialog button,
 .folder-edit button {
-    font-family: 'Kurale', serif;
+    font-family: 'Josefin Sans', serif;
     font-weight: 600;
-    color: #837360;
-    border: none!important;
+    color: color: var(--main-text-light-color);
+    border: none !important;
     position: relative;
     box-shadow: none;
 }
@@ -581,6 +590,10 @@ body.compact-mode #logo {
     background-size: 100% 100%;
 }
 
+.dialog .dialog-content {
+  color: var(--main-text-light-color);
+}
+
 .dialog button:hover::after,
 .folder-edit button:hover::after {
     opacity: 1;
@@ -602,13 +615,34 @@ body.compact-mode #logo {
 .dialog select,
 .folder-edit select {
     border: 0;
-    background: rgba(131, 115, 96, 0.56);
+    background: rgb(217, 192, 163);
 }
 
 .folder-edit input[type="color"][data-edit][data-edit] {
     border: none;
     color: #ddc5b9;
     background: #ffffff14;
+}
+.dialog .form-group label {
+    color: var(--main-text-light-color);
+}
+.dialog-button.advantage {
+    color: #ffc365;
+}
+.dialog-button.advantage::before {
+    filter: brightness(2) hue-rotate(20deg) saturate(0.8);
+}
+.dialog-button.normal.default {
+  color: var(--main-text-light-color);
+}
+.dialog-button.normal.default {
+  color: var(--main-text-light-color);
+}
+.dialog-button.disadvantage {
+  color: #e35872;
+}
+.dialog-button.disadvantage::before {
+  filter: brightness(2) hue-rotate(20deg) saturate(1.5);
 }
 
 /* ACTOR AND ITEM */
