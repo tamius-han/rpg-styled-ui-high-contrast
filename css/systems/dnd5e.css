@@ -12,6 +12,46 @@
     height: 7px;
     bottom: 8px;
 }
+.chat-message.message .message-header .flavor-text {
+    font-weight: 100;
+    color: #e4a8c4;
+}
+.chat-message .message-content .card-header .item-name {
+    color: #ffae47;
+}
+.chat-message .message-content .entry-title-inner {
+    color: #ffece4;
+}
+.chat-message .message-content .dice-result .dice-total {
+    background-color: rgba(0,0,0,0.5); 
+    var(--main-text-very-light)
+}
+.dice-roll .dice-result .dice-formula {
+    color: #c089a3;
+}
+
+.chat-message .message-content .dice-roll .dice-result .dice-total.critical {
+    background-color: #eee895;
+    color: #000;
+}
+.chat-message .message-content .dice-roll .dice-result .dice-total.fumble {
+    background-color: #ba2828;
+    color: #2b0a05;
+}
+
+.dnd5e.chat-card .card-footer {
+    color: #c089a3;
+}
+.dnd5e.chat-card .card-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.dnd5e.chat-card .card-footer *:not(last-child)::after {
+    content: '·';
+    margin-left: 0.25rem;
+    margin-right: 0.125rem;
+}
 
 .dnd5e.chat-card .card-header {
     border: none;
