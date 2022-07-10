@@ -5,7 +5,7 @@
 @import "systems/dnd5e.css";
 
 :root {
-    --main-text-light-color: #98968a;
+    --main-text-light-color #e4dbb6;
     --main-text-very-light-color: #d4d1c3;
     --border-color: #372d25;
 }
@@ -110,10 +110,11 @@ body.compact-mode #logo {
 
 #sidebar a.entity-link,
 #sidebar a.inline-roll {
-    background: #61180e;
+    background: #000;
+    color: #fab665;
     padding: 0px 3px;
-    border: 2px solid #9a2619;
-    border-radius: 6px;
+    border: 1px solid #4b4a44;
+    border-radius: 2px;
 }
 
 #sidebar-tabs {
@@ -160,7 +161,6 @@ body.compact-mode #logo {
 }
 
 #chat-controls {
-    color: #837360;
     margin: 0 6px 10px
 }
 
@@ -175,13 +175,9 @@ body.compact-mode #logo {
     bottom: 8px;
 }
 
-#chat-controls .roll-type-select {
-    background: rgb(131 115 96);
-}
-
 #chat-log .message {
     position: relative;
-    color: #837360;
+    color: #e4dbb6;
     border: none !important;
     background: none !important;
     padding: 10px 20px 15px 20px;
@@ -826,6 +822,8 @@ button#roll-hd:hover::before {
     -webkit-mask-size: 100% 100%;
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
+
+    filter: brightness(135%);
 }
 
 .app.journal-sheet::after {
@@ -937,7 +935,7 @@ button#roll-hd:hover::before {
 
 .journal-sheet ::-webkit-scrollbar-thumb {
     outline: none;
-    border-radius: 5px;
+    border-radius: 2px;
     border: none;
     background: #74645526;
 }
@@ -1001,11 +999,11 @@ button#roll-hd:hover::before {
 
 .journal-sheet a.entity-link,
 .journal-sheet a.inline-roll {
-    color:#98968a;
-    background: #40130c;
+    color:#fab665;
+    background: #000;
     padding: 0px 3px;
     border: 2px solid #671911;
-    border-radius: 6px;
+    border-radius: 2px;
 }
 
 .journal-sheet.minimized {
@@ -1037,6 +1035,17 @@ button#roll-hd:hover::before {
 }
 
 /* ==== compatibility ==== */
+/* don't know which module does journal links, but they're broken for me on all dark themes I've tried so far */
+.editor-content a.jlnk__entity-link {
+    background: #000;
+    color: #fab665;
+}
+.editor-content a.jlnk__entity-link .fas {
+    color: #a87b59;
+}
+.ve-muted {
+  color: #ca9a61 !important;
+}
 
 /* Illandril's Hotbar Uses */
 .illandril-hotbar-uses--hasUses .illandril-hotbar-uses--counter {
